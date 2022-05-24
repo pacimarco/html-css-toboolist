@@ -61,3 +61,9 @@ button{
     padding: 2px;
 }
 
+hr{
+    background-color:rgb(163, 171, 246) ;
+    height: 3px;
+    color: rgb(163, 171, 246);
+}
+
