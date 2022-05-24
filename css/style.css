@@ -28,7 +28,7 @@ body{
 }
 .centro{
     width: 560px;
-    height: 600px;
+    height: 90%;
     margin: 0 auto;
     background-color: white;
     margin-top: 5%;
@@ -69,6 +69,10 @@ hr{
 h4:before{
     content: '\25BC';
 }
+h4{
+    margin-top: 5%;
+    margin-left: 5%;
+}
 .editorial:after{
     content: 'Editorial';
 }
@@ -85,8 +89,108 @@ h4:before{
     color: white;
     
 }
+.q1-goals:after{
+    content: 'Q1 Goals';
+}
+.q1-goals{
+    display: inline-block;
+    background-color: rgb(165, 14, 163);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white; 
+}
+.recruiting:after{
+    content: 'Recruiting';
+}
+
+.recruiting{
+
+    display: inline-block;
+    background-color: rgb(19, 154, 93);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white;
+}
+
+.Mobile:after{
+
+content: 'Mobile';
+}
+.Mobile{
+
+    display: inline-block;
+    background-color: rgb(216, 114, 31);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white;
+}
+
+.Website:after{
+    content: 'Website';
+}
+
+.Website{
+
+    display: inline-block;
+    background-color: rgb(182, 20, 104);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white; 
+}
+
+.Sales:after{
+    content: 'Sales';
+}
+
+.Sales{
+    display: inline-block;
+    background-color: rgb(51, 135, 66);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white; 
+}
+#spunta:before{
+content: '\2713';
+color: green;
+background-color: white;
+border-color: green;
+}
+
+#x:before{
+    content: '\2716';
+    color: red
+    ;
+}
+
 li{
     vertical-align: middle;
     line-height: 50px;
     height: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
