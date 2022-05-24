@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo{
+    background-color: white;
+}
 #img-logo{
     height: 80px;
     vertical-align: middle;
@@ -17,5 +20,10 @@
     vertical-align: middle;
     line-height: 50px;
 }
-  .  
+
+body{
+    background-color:rgb(163, 171, 246) ;
+width: 100%;
+height: 100%;
+}
 
