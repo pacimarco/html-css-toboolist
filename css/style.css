@@ -27,8 +27,8 @@ body{
     height: 100%;
 }
 .centro{
-    width: 560px;
-    height: 90%;
+    width: 70%;
+    height: 80%;
     margin: 0 auto;
     background-color: white;
     margin-top: 5%;
@@ -72,6 +72,7 @@ h4:before{
 h4{
     margin-top: 5%;
     margin-left: 5%;
+    font-size: 15px;
 }
 .editorial:after{
     content: 'Editorial';
@@ -79,11 +80,11 @@ h4{
 .editorial{
     display: inline-block;
     background-color: rgb(71, 161, 238);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white;
@@ -95,11 +96,11 @@ h4{
 .q1-goals{
     display: inline-block;
     background-color: rgb(165, 14, 163);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white; 
@@ -112,11 +113,11 @@ h4{
 
     display: inline-block;
     background-color: rgb(19, 154, 93);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white;
@@ -130,11 +131,11 @@ content: 'Mobile';
 
     display: inline-block;
     background-color: rgb(216, 114, 31);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white;
@@ -148,11 +149,11 @@ content: 'Mobile';
 
     display: inline-block;
     background-color: rgb(182, 20, 104);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white; 
@@ -165,11 +166,11 @@ content: 'Mobile';
 .Sales{
     display: inline-block;
     background-color: rgb(51, 135, 66);
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
-    width: 30px;
-    height: 50px;
-    line-height: 50px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 8px;
     color: white; 
@@ -191,6 +192,7 @@ li{
     vertical-align: middle;
     line-height: 50px;
     height: 30px;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 5%;
+    font-size: 13px;
 }
