@@ -28,7 +28,7 @@ body{
 }
 .centro{
     width: 560px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     background-color: white;
     margin-top: 5%;
@@ -68,4 +68,25 @@ hr{
 }
 h4:before{
     content: '\25BC';
+}
+.editorial:after{
+    content: 'Editorial';
+}
+.editorial{
+    display: inline-block;
+    background-color: rgb(71, 161, 238);
+    border-radius: 35%;
+    text-align: center;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 8px;
+    color: white;
+    
+}
+li{
+    vertical-align: middle;
+    line-height: 50px;
+    height: 30px;
 }
