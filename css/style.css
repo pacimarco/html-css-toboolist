@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .logo{
     background-color: white;
 }
+
 #img-logo{
     height: 80px;
     vertical-align: middle;
@@ -14,6 +16,7 @@
     margin-left: 10px;
     margin-top: 10px;
 }
+
 #logo-text{
     font-size: 25px;
     font-weight: bold;
@@ -25,7 +28,9 @@ body{
     background-color:rgb(163, 171, 246) ;
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .centro{
     width: 70%;
     height: 100%;
@@ -33,16 +38,16 @@ body{
     background-color: white;
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
+
 button{
     margin-top: 10px;
     margin-bottom: 5px;
     border-width: 0.5px;
     border-color: rgb(74, 71, 71);
     border-radius: 8%;
-
 }
+
 #button-blu{
     background-color: rgb(71, 161, 238);
     font-size: 9px;
@@ -52,6 +57,7 @@ button{
     padding: 2px;
 
 }
+
 #button-bianco{
 
     background-color: rgba(254, 254, 254, 0.917);
@@ -67,17 +73,21 @@ hr{
     height: 3px;
     color: rgb(163, 171, 246);
 }
+
 h4:before{
     content: '\25BC';
 }
+
 h4{
     margin-top: 5%;
     margin-left: 5%;
     font-size: 15px;
 }
+
 .editorial:after{
     content: 'Editorial';
 }
+
 .editorial{
     display: inline-block;
     background-color: rgb(71, 161, 238);
@@ -89,11 +99,12 @@ h4{
     vertical-align: middle;
     font-size: 8px;
     color: white;
-    
-}
+ }
+
 .q1-goals:after{
     content: 'Q1 Goals';
 }
+
 .q1-goals{
     display: inline-block;
     background-color: rgb(165, 14, 163);
@@ -106,6 +117,7 @@ h4{
     font-size: 8px;
     color: white; 
 }
+
 .recruiting:after{
     content: 'Recruiting';
 }
@@ -128,6 +140,7 @@ h4{
 
 content: 'Mobile';
 }
+
 .Mobile{
 
     display: inline-block;
@@ -176,22 +189,42 @@ content: 'Mobile';
     font-size: 8px;
     color: white; 
 }
-#spunta:before{
-content: '\2713';
-color: green;
-background-color: white;
-border-color: green;
+
+
+.circle{
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
 }
 
-#x:before{
+.checked::before{
+    content: '\2713';
+}
+
+.checked{
+    border-color: green;
+    color: green;
+}
+
+
+.delete::before{
     content: '\2716';
-    color: red
-    ;
+}
+
+.delete{
+    border-color: red;
+    color: red;
 }
 
 li{
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 30px;
     height: 30px;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -201,6 +234,7 @@ li{
     bottom: 6px;
     
 }
+
 .lista{
     margin-bottom: 3%;
     height: 90%;
